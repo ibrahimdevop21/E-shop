@@ -77,33 +77,25 @@ The project is equipped with both unit tests and end-to-end tests to ensure func
 ## 📋 Project Management
 
 This project is being developed with careful planning and organization. I’ve been using [Notion](https://www.notion.so) to keep track of tasks, milestones, and features. You can check out the full **To-Do List** and roadmap for the project [here](https://prickly-hemisphere-ff5.notion.site/E-Commerce-Platform-136a4278598f809581c6cffa9575ed71?pvs=4).
+You're right—there is redundancy in the two sections. To streamline it and avoid repetition, here's a more concise version:
+
+---
 
 ## 💡 Contributing
 
-I welcome contributions from the community! Whether you’re suggesting improvements, reporting bugs, or contributing code, your input is valuable.
+We welcome contributions from developers and designers of all experience levels! Whether you're suggesting improvements, reporting bugs, or contributing code, your input helps make this project better for everyone.
+
+If you want to contribute:
 
 - Fork the repository
-- Create a new branch
-- Make your changes
-- Open a Pull Request
+- Create a new branch for your changes
+- Submit a Pull Request, and we’ll review it together!
+
+Check out our [Notion roadmap](https://prickly-hemisphere-ff5.notion.site/E-Commerce-Platform-136a4278598f809581c6cffa9575ed71?pvs=4) for ongoing goals and feel free to suggest new ideas!
+
+---
 
 ## 📄 License
 
 This project is open-source and available under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.
 
----
-
----
-
-### 🌟 Join the Project
-
-We welcome contributions from developers of all experience levels. Whether you're suggesting improvements, reporting issues, or contributing code, your input helps make this project better for everyone! 
-
-If you're interested in helping out:
-- Fork the repository
-- Create a new branch for your changes
-- Submit a Pull Request, and we’ll review it together!
-
-Check out our project roadmap and goals on [Notion](https://prickly-hemisphere-ff5.notion.site/E-Commerce-Platform-136a4278598f809581c6cffa9575ed71?pvs=4) to see what’s planned and suggest new ideas. 
-
-Thank you for visiting, and we look forward to building something amazing together! 🙌
