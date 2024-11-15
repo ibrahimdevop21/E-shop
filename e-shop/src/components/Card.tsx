@@ -5,19 +5,19 @@ import Image from 'next/image';
 type CardProps = {
   title: string;
   description: string;
-  imgeUrl: string;
+  imageUrl: string;
   price: number;
 };
 
-const Card = ({ title, description, imageUrl, price }: cardProps) => {
+const Card = ({ title, description, imageUrl, price }: CardProps) => {
   return (
-    <div className='max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white'>
+    <div className='max-w-sm rounded overflow-hidden shadow-lg m-4  bg-white'>
       <Image
         src={imageUrl}
         alt={title}
-        width={400}
-        height={250}
-        className='w-full h-48 object-cover'
+        width={200}
+        height={400}
+        className='w-full h-66 object-cover'
       />
       <div className='px-6 py-4'>
         <div className='font-bold text-xl mb-2'>{title}</div>
@@ -25,8 +25,8 @@ const Card = ({ title, description, imageUrl, price }: cardProps) => {
         <p className='text-gray-900 mt-2 font-semibold'>${price}</p>
       </div>
       <div className='flex flex-1 container justify-around'>
-        <Button text='Add to cart' style={{ margin: '5px' }} />
-        <Button text='Remove' />
+        <Button text='Add to Cart' className='bg-blue-500' />
+        <Button text='Remove' className='bg-red-500' />
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 // src/components/ProductCard.tsx
-
+// src/components/ProductCard.tsx
 import Card from '@/components/Card';
-import Button from '@/components/Button';
 
 type ProductCardProps = {
   title: string;
@@ -19,8 +18,13 @@ const ProductCard = ({
   onAddToCart,
 }: ProductCardProps) => {
   return (
-    <div className='flex flex-1 container'>
-      <Card />
+    <div className='flex justify-center'>
+      <Card
+        title={title}
+        description={description}
+        imageUrl={imageUrl || '/images/Javascript-JS-T-shirt-Black-3.jpg'} // Corrected path for the image
+        price={price}
+      />
     </div>
   );
 };
